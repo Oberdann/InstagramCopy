@@ -1,5 +1,6 @@
 .postagem{
-    width: 100vw
+    width: 100vw;
+    padding-top: 2.5em;
 }
 
 .postagem__cabeca{

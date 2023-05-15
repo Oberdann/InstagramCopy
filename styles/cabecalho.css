@@ -1,4 +1,7 @@
+
 .cabecalho {
+    z-index: 10;
+    position: fixed;
     border-bottom: 0.6px solid var(--cinza);
     display: flex;
     justify-content: space-between;
