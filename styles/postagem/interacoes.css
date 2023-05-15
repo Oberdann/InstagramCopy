@@ -1,0 +1,14 @@
+.interacoes {
+    display: flex;
+    justify-content: space-between;
+    margin: .3em 0;
+}
+
+.swiper__pagination {
+    width: 10%;
+}
+
+.swiper-pagination-bullet{
+    height: 5px;
+    width: 5px
+}

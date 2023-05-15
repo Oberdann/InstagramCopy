@@ -1,0 +1,34 @@
+.postagem{
+    width: 100vw
+}
+
+.postagem__cabeca{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.3em;
+}
+
+.postagem__informacoes-titulo{
+    font-size: 12px;
+    font-weight: 600;
+}
+.postagem__informacoes{
+    display: flex;
+    align-items: center;
+    margin: 0 .3em;
+}
+
+.postagem__imagem-logo{
+    width: 6vw;
+    margin-right: 0.5em;
+}
+
+.postagem__imagem-verificado{
+    width: 5vw;
+    background: transparent;
+}
+.postagem__imagem-pontos{
+    height: 3vw;
+    width: 4vw;
+}

@@ -1,0 +1,16 @@
+.swiper{
+    width: 100vw;
+}
+
+.carrossel__imagem{
+    width: 100vw;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    display: none;
+}
+
+.swiper-wrapper{
+    align-items: center;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Copy</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <img src="./img/logo.PNG" alt="Logo do Instragam" class="cabecalho__logo">
+        <div class="cabecalho__imagens">
+            <img src="./img/like.PNG" alt="Imagem do coraçao" class="cabecalho__item">
+            <img src="./img/messenger.PNG" alt="Imagem do direct" class="cabecalho__item">
+        </div>
+    </header>
+
+    <main>
+        <section class="postagem">
+            <div class="postagem__cabeca">
+                <div class="postagem__informacoes">
+                    <div class="postagem__borda">
+                        <img src="./img/Logo_PSG.png" alt="Logo do PSG" class="postagem__imagem-logo">
+                    </div>
+                    <h2 class="postagem__informacoes-titulo">psg</h2>
+                    <img src="./img/verificado.png" alt="Verificado Do Instagram" class="postagem__imagem-verificado">
+                </div>
+                <img src="./img/trespontinhos.png" alt="Tres pontinhos" class="postagem__imagem-pontos">
+            </div>
+
+            <!-- Slider main container -->
+            <div class="carrossel__container">
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./img/ney.jpg" alt="Primeira foto do Neymmar"
+                                class="carrossel__imagem"></div>
+                        <div class="swiper-slide"><img src="./img/neymar2.webp" alt="Segunda foto do Neymar"
+                                class="carrossel__imagem"></div>
+                        ...
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
+
+                <div class="interacoes swiper">
+                    <div class="interacoes__conteudo">
+                        <img src="./img/like.PNG" alt="Imagem do coraçao" class="cabecalho__item">
+                        <img src="./img/comment.PNG" alt="Imagem do comentario" class="cabecalho__item">
+                        <img src="./img/send.PNG" alt="Imagem de enviar" class="cabecalho__item">
+                    </div>
+                    <div class="swiper-pagination"></div>
+
+                    <img src="./img/save.PNG" alt="Imagem de salvar" class="cabecalho__item">
+
+                </div>
+
+                <div class="feedback">
+                    <p class="feedback__texto">Curtido por <b class="feedback__texto-negrito">thais.chv</b> e <b class="feedback__texto-negrito">outras pessoas</b></p>
+                    <div class="feedback__conteudo">
+                        <h2 class="feedback__titulo">psg</h2>
+                        <p class="feedback__texto">All the goals from the Parisian win VS Ajacacio!<b class="feedback__ver-comentarios">... mais</b></p>
+                    </div>
+                    <p class="feedback__ver-comentarios">Ver todos os 336 comentarios</p>
+                    
+                    <div class="feedback__comentario">
+                        <img src="./img/perfil_default.webp" alt="Foto de Perfil" class="feedback__perfil">
+                        <input type="text" placeholder="Adicione um comentario..." class="feedback__input">
+                    </div>
+                    <p class="feedback__ver-comentarios rodape__tempo-publicação">Há 2 horas</p>
+                </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="rodape__conteudo">
+            <img src="./img/home.PNG" alt="Imagem de home" class="cabecalho__item">
+            <img src="./img/lupa.png" alt="Imagem de lupa" class="cabecalho__item">
+            <img src="./img/add.PNG" alt="Imagem de adicionar" class="cabecalho__item">
+            <img src="./img/reels.png" alt="Imagem do reels" class="cabecalho__item">
+            <img src="./img/perfil_default.webp" alt="Imagem de perfil default" class="cabecalho__item rodape_perfil">
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 1,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            }
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+@import url("./styles/cabecalho.css");
+@import url("./styles/postagem/informacoes.css");
+@import url("./styles/postagem/imagens.css");
+@import url("./styles/postagem/interacoes.css");
+@import url("./styles/postagem/feedback.css");
+@import url("./styles/postagem/rodape.css");
+
+:root{
+    --branco: #FFFF;
+    --preto: #000000;
+    --cinza: #47454596;
+}
+
+body{
+    background: var(--branco);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}

@@ -1,0 +1,19 @@
+.rodape{
+    width: 100vw;
+}
+
+.rodape__conteudo{
+    padding: .5em;
+    border-top: 1px solid var(--cinza);
+    display: flex;
+    justify-content: space-around;
+}
+
+.rodape_perfil{
+    border-radius: 50%;
+}
+
+.rodape__tempo-publicação{
+    font-size: 8px;
+    margin-top: 1em;
+}
