@@ -1,16 +1,20 @@
-
 .cabecalho {
+    box-sizing: border-box;
     z-index: 10;
     position: fixed;
-    border-bottom: 0.6px solid var(--cinza);
+    border-bottom: 0.1px solid var(--cinza);
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    max-height: 50px;
     background-color: var(--branco);
+    padding: .8em .5em;
 }
 
 .cabecalho__logo {
+    max-height: 42px;
+    max-width: 102px;
     width: 28vw;
     height: 10vw;
 }
@@ -20,6 +24,107 @@
 }
 
 .cabecalho__item {
+    max-width: 23px;
+    max-height: 20px;
     width: 4.4vw;
     margin: 0 0.5em;
+}
+
+.cabecalho-conteudo{
+    display: none;
+}
+
+.cabecalho__texto-pc{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+
+
+    header{
+        grid-column: 1/2;
+
+    }
+    main {
+        grid-column: 2/3;
+    }
+
+    .cabecalho-conteudo{
+        display: block;
+        height: 100vw;
+    }
+
+    .cabecalho {
+        border-right: 0.1px solid var(--cinza);
+        max-height: 100vw;
+        height: 100%;
+        width: 80px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .cabecalho__logo,
+    .cabecalho__imagens{
+        display: none;
+    }
+
+    .cabecalho__item-tablet{
+        max-width: 23px;
+        max-height: 20px;
+        width: 4.4vw;
+        margin: 0 .5em 2em .5em;
+    }
+
+    .cabecalho__item-logo{
+        margin: 1.2em .5em 3.5em .5em;
+        max-width: 35px;
+        max-height: 30px;
+        width: 4.4vw;
+    }
+
+
+    .cabecalho__item-tracos{
+        margin-top: 5vw;
+    }
+}
+
+@media screen and (min-width: 1264px){
+
+    .cabecalho__item-logo{
+        display: none;
+    }
+
+
+    .cabecalho__logo,
+    .cabecalho__texto-pc{
+        display: block;
+    }
+
+    .cabecalho{
+        width: 265px;
+        align-items: initial;
+        padding: 1em;
+    }
+
+    .cabecalho-pc{
+        display: flex;
+    }
+
+    .cabecalho__item-tablet{
+        margin-bottom: 2.3em;
+    }
+    .cabecalho__item-tracos{
+       position: fixed;
+       bottom: 1em;
+    }
+
+    .cabecalho__logo{
+        margin: 1em 0 3em 1em; 
+    }
+
+    .cabecalho__texto-pc{
+        color: var(--cinza-escuro);
+        font-size: 15px;
+        margin-left: .5em;
+    }
+
 }

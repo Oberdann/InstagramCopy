@@ -1,8 +1,10 @@
 .swiper{
     width: 100vw;
+    max-width: 500px;
 }
 
 .carrossel__imagem{
+    max-width: 500px;
     width: 100vw;
 }
 

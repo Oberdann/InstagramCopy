@@ -1,35 +1,45 @@
-.postagem{
+.postagem {
     width: 100vw;
-    padding-top: 10vw;
+    max-width: 500px;
+    padding-top: 4em;
 }
 
-.postagem__cabeca{
+.postagem__cabeca {
+    max-width: 500px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.3em;
 }
 
-.postagem__informacoes-titulo{
-    font-size: 12px;
-    font-weight: 600;
+.postagem__informacoes-titulo {
+    font-size: 13px;
+    font-weight: 550;
 }
-.postagem__informacoes{
+
+.postagem__informacoes {
     display: flex;
     align-items: center;
     margin: 0 .3em;
 }
 
-.postagem__imagem-logo{
+.postagem__imagem-logo {
     width: 6vw;
+    max-width: 30px;
+    max-height: 30px;
     margin-right: 0.5em;
 }
 
-.postagem__imagem-verificado{
+.postagem__imagem-verificado {
     width: 5vw;
+    max-width: 23px;
+    max-height: 33px;
     background: transparent;
 }
-.postagem__imagem-pontos{
+
+.postagem__imagem-pontos {
+    max-width: 15px;
+    max-height: 12px;
     height: 3vw;
     width: 4vw;
 }

@@ -1,5 +1,5 @@
 .feedback{
-    font-size: 11px;
+    font-size: 14px;
     padding: .6em .6em 11vw .6em;
 }
 
@@ -25,6 +25,8 @@
 
 .feedback__perfil{
     width: 7%;
+    max-width: 30px;
+    max-height: 30px;
     border-radius: 50%;
     margin-right: .5em;
 }
@@ -43,7 +45,7 @@
 }
 
 .feedback__input::placeholder{
-    font-size: 11px;
+    font-size: 14px;
     color: var(--cinza);
 }
 
