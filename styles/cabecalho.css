@@ -71,7 +71,7 @@
         max-width: 23px;
         max-height: 20px;
         width: 4.4vw;
-        margin: 0 .5em 2em .5em;
+        margin: 0 .5em 1.8em .5em;
     }
 
     .cabecalho__item-logo{
@@ -83,7 +83,9 @@
 
 
     .cabecalho__item-tracos{
-        margin-top: 5vw;
+        bottom: 1em;
+        position: fixed;  
+        margin-left: .4em; 
     }
 }
 
